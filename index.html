@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yongsen Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="judul">
+		<h1>Koleksi Game</h1>
+	</div>
+
+	<div class="container">
+
+		<div class="responsive">
+			<div class="gallery" onclick="game1()">
+				<img src="img/number.png" alt="GuessNumber">
+				<p>Guess The Number</p>
+			</div>
+		</div>
+
+		<div class="responsive">
+			<div class="gallery" onclick="game2(words_noun)">
+				<img src="img/noun.png" alt="HangmanNoun">
+				<p>Hangman Noun</p>
+			</div>
+		</div>
+
+		<div class="responsive">
+			<div class="gallery" onclick="game2(words_verb)">
+				<img src="img/verb.png" alt="HangmanVerb">
+				<p>Hangman Verb</p>
+			</div>
+		</div>
+
+		<div class="responsive">
+			<div class="gallery" onclick="game3()">
+				<img src="img/suit.png" alt="RockPaperScissor">
+				<p>Rock-Paper-Scissor</p>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		
+	</div>
+
+<script type="text/javascript" src="GuessNumber_script/script.js"></script>
+<script type="text/javascript" src="Hangman_script/script.js"></script>
+<script type="text/javascript" src="Suit_script/script.js"></script>
+</body>
+</html>

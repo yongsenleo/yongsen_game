@@ -1,0 +1,68 @@
+/*Style CSS*/
+body{
+	background-color: #0014FF;
+	font-family: 'arial narrow';
+}
+
+.judul{
+	padding:20px 0;
+	background-color: black;
+}
+
+.judul h1{
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 30px yellow;
+}
+
+.container{
+	width: 60%;
+	background-color: white;
+	margin: auto;
+	border-radius: 50px;
+	padding: 0;
+}
+
+.gallery{
+
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.gallery p{
+	padding: 15px;
+	text-align: center;
+}
+
+.responsive{
+	padding: 0 6px;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+@media only screen and (max-width: 992px){
+	.responsive{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.responsive{
+		width: 100%;
+	}
+}
+
